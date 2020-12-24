@@ -25,9 +25,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/jongh0/Test/raw/master/WpfApp1/ClickOnce/</InstallUrl>
-    <UpdateUrl>https://github.com/jongh0/Test/raw/master/WpfApp1/ClickOnce/</UpdateUrl>
-    <ApplicationRevision>10</ApplicationRevision>
+    <InstallUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</UpdateUrl>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
