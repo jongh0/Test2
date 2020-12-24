@@ -27,14 +27,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</UpdateUrl>
-    <TargetCulture>en-US</TargetCulture>
-    <ProductName>WPF TEST TOOL</ProductName>
-    <PublisherName>JONGHO</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>23</ApplicationRevision>
+    <ApplicationRevision>24</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>true</UseApplicationTrust>
-    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
