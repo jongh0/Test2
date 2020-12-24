@@ -2,6 +2,6 @@
 <item>
 	<version>1.3.0.0</version>
 	<url>https://github.com/jongh0/Test/releases/download/v1.2/Debug.zip</url>
-	<changelog></changelog>
+	<changelog>https://github.com/jongh0/Test/releases</changelog>
 	<mandatory>false</mandatory>
 </item>
