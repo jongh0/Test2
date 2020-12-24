@@ -18,15 +18,16 @@
     <PublishUrl>ClickOnce\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/jongh0/Test/tree/master/ClickOnce/</InstallUrl>
-    <ApplicationRevision>1</ApplicationRevision>
+    <InstallUrl>https://github.com/jongh0/Test/tree/master/WpfApp1/ClickOnce/</InstallUrl>
+    <UpdateUrl>https://github.com/jongh0/Test/tree/master/WpfApp1/ClickOnce/</UpdateUrl>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
