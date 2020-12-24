@@ -28,9 +28,9 @@
     <InstallUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/</UpdateUrl>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>24</ApplicationRevision>
+    <ApplicationRevision>26</ApplicationRevision>
     <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>false</UseApplicationTrust>
+    <UseApplicationTrust>true</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
