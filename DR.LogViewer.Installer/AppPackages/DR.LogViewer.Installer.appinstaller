@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://raw.githubusercontent.com/jongh0/Test/master/DR.LogViewer.Installer/AppPackages/DR.LogViewer.Installer.appinstaller"
-	Version="1.0.14.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="1.0.15.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
 	<MainBundle
 		Name="DR.LogViewer"
-		Version="1.0.14.0"
+		Version="1.0.15.0"
 		Publisher="CN=jongh"
-		Uri="https://raw.githubusercontent.com/jongh0/Test/master/DR.LogViewer.Installer/AppPackages/DR.LogViewer.Installer_1.0.14.0_Debug_Test/DR.LogViewer.Installer_1.0.14.0_AnyCPU_Debug.msixbundle" />
+		Uri="https://raw.githubusercontent.com/jongh0/Test/master/DR.LogViewer.Installer/AppPackages/DR.LogViewer.Installer_1.0.15.0_Debug_Test/DR.LogViewer.Installer_1.0.15.0_AnyCPU_Debug.msixbundle" />
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0" />
 	</UpdateSettings>
 </AppInstaller>
+
+
