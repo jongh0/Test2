@@ -7,13 +7,13 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="3097b311-eaa0-4265-a5e8-92a6919fadd2"
+    Name="SEC.DR.WpfTool"
     Publisher="CN=jongho"
-    Version="1.0.4.0" />
+    Version="1.0.7.0" />
 
   <Properties>
-    <DisplayName>WapProjTemplate1</DisplayName>
-    <PublisherDisplayName>jongh</PublisherDisplayName>
+    <DisplayName>WpfTool</DisplayName>
+    <PublisherDisplayName>SEC.DR</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 
@@ -31,8 +31,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="WapProjTemplate1"
-        Description="WapProjTemplate1"
+        DisplayName="WpfTest2"
+        Description="WpfTest2 program"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">
