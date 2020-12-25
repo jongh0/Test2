@@ -27,7 +27,8 @@ namespace DR.LogViewer
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            System.IO.File.WriteAllText(@"WriteText.txt", DateTime.Now.ToLongTimeString());
+            var folder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            System.IO.File.WriteAllText($@"{folder}\WriteText.txt", DateTime.Now.ToLongTimeString());
 
         }
     }
