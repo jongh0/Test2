@@ -24,5 +24,11 @@ namespace DR.LogViewer
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            System.IO.File.WriteAllText(@"WriteText.txt", DateTime.Now.ToLongTimeString());
+
+        }
     }
 }
