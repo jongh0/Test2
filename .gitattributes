@@ -36,4 +36,4 @@
 *.appxsym binary
 *.appxbundle binary
 *.msixbundle binary
-*.appinstaller binary
+*.appinstaller text
