@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/WapProjTemplate1.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="3097b311-eaa0-4265-a5e8-92a6919fadd2"
+		Version="1.0.0.0"
+		Publisher="CN=jongho"
+		Uri="https://raw.githubusercontent.com/jongh0/Test/master/WpfApp1/ClickOnce/WapProjTemplate1_1.0.0.0_Debug_Test/WapProjTemplate1_1.0.0.0_AnyCPU_Debug.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

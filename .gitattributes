@@ -31,6 +31,8 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.manifest binary
-*.application binary
-*.deploy binary
+*.appx binary
+*.msix binary
+*.appxbundle binary
+*.msixbundle binary
+*.appinstaller binary

@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using AutoUpdaterDotNET;
 
 namespace WpfApp1
 {
@@ -24,8 +23,6 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-
-            AutoUpdater.Start("https://raw.githubusercontent.com/jongh0/Test/master/AutoUpdater.xml");
         }
     }
 }
