@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DR.LogViewer"
         mc:Ignorable="d"
-        Title="MainWindow11" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="MainWindow12" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        
+        <TextBlock x:Name="pathText" HorizontalAlignment="Left" Margin="79,63,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="239" Width="415"/>
+
     </Grid>
 </Window>

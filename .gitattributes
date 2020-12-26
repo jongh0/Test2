@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-#* text=auto
+* text=auto
 
 # Custom for Visual Studio
 *.bat text
@@ -36,4 +36,4 @@
 *.appxsym binary
 *.appxbundle binary
 *.msixbundle binary
-*.appinstaller text
+*.appinstaller text eol=crlf
