@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using Prism.Mvvm;
 
 namespace DR.LogViewer
 {
@@ -38,10 +39,6 @@ namespace DR.LogViewer
         {
             InitializeComponent();
             DataContext = this;
-
-            //Thread.CurrentThread.CurrentCulture = (CultureInfo)Thread.CurrentThread.CurrentCulture.Clone();
-            //Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern = "yyyy-MM-dd";
-            //Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortTimePattern = "HH:mm:ss";
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

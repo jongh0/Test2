@@ -4,25 +4,32 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+        Dialog:DialogParticipation.Register="{Binding}"
         xmlns:local="clr-namespace:DR.LogViewer"
         mc:Ignorable="d"
         Title="MainWindow13" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <mah:DateTimePicker 
+        <StackPanel Orientation="Horizontal">
+            <mah:DateTimePicker 
             Culture="{Binding DateTimeCulture}"
             SelectedTimeFormat="Short" 
             SelectedDateFormat="Short">
-            <mah:DateTimePicker.Resources>
-                <Style TargetType="{x:Type DatePickerTextBox}">
-                    <Setter Property="Control.Template">
-                        <Setter.Value>
-                            <ControlTemplate>
-                                <TextBox x:Name="PART_TextBox" Width="113" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=SelectedDate,RelativeSource={RelativeSource AncestorType={x:Type mah:DateTimePicker}},ConverterParameter=dd-MMM-yyyy}" BorderBrush="{DynamicResource BaseBorderBrush}" />
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </mah:DateTimePicker.Resources>
-        </mah:DateTimePicker>
+                <mah:DateTimePicker.Resources>
+                    <Style TargetType="{x:Type DatePickerTextBox}">
+                        <Setter Property="Control.Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <TextBox x:Name="PART_TextBox" Width="113" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=SelectedDate,RelativeSource={RelativeSource AncestorType={x:Type mah:DateTimePicker}},ConverterParameter=dd-MMM-yyyy}" BorderBrush="{DynamicResource BaseBorderBrush}" />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </mah:DateTimePicker.Resources>
+            </mah:DateTimePicker>
+
+        </StackPanel>
+
     </Grid>
 </mah:MetroWindow>
